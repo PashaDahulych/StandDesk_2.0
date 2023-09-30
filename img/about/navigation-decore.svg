@@ -1,0 +1,18 @@
+<svg width="456" height="288" viewBox="0 0 456 288" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_876_4164)">
+<path d="M0 8C0 3.58173 3.58172 0 8 0H448C452.418 0 456 3.58172 456 8V280C456 284.418 452.418 288 448 288H8C3.58172 288 0 284.418 0 280V8Z" fill="black" fill-opacity="0.05"/>
+<path d="M100 288L556 0" stroke="black" stroke-opacity="0.1" stroke-dasharray="2 2"/>
+<path d="M-100 288L356 0" stroke="black" stroke-opacity="0.1" stroke-dasharray="2 2"/>
+<path d="M200 288L656 0" stroke="black" stroke-opacity="0.1" stroke-dasharray="4 4"/>
+<path d="M-200 288L256 0" stroke="black" stroke-opacity="0.1" stroke-dasharray="4 4"/>
+<path d="M300 288L756 0" stroke="black" stroke-opacity="0.1" stroke-dasharray="6 6"/>
+<path d="M-300 288L156 0" stroke="black" stroke-opacity="0.1" stroke-dasharray="6 6"/>
+<path d="M400 288L856 0" stroke="black" stroke-opacity="0.1" stroke-dasharray="8 8"/>
+<path d="M-400 288L56 0" stroke="black" stroke-opacity="0.1" stroke-dasharray="8 8"/>
+</g>
+<defs>
+<clipPath id="clip0_876_4164">
+<path d="M0 8C0 3.58173 3.58172 0 8 0H448C452.418 0 456 3.58172 456 8V280C456 284.418 452.418 288 448 288H8C3.58172 288 0 284.418 0 280V8Z" fill="white"/>
+</clipPath>
+</defs>
+</svg>
