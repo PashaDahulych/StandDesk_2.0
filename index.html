@@ -1,0 +1,1124 @@
+<!doctype html>
+<html lang="uk">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230930213627">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header" data-lp data-scroll="1">
+			<div class="header__container">
+				<div class="header__wrapper">
+					<a href="index.html" class="header__logo"><img src="img/logo.svg" alt="logo" ></a>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<button data-goto-header data-goto=".main__advantages" type="button" class="menu__link">ПЕРЕВАГИ</button>
+								</li>
+								<li class="menu__item">
+									<button data-goto-header data-goto=".page__about" type="button" class="menu__link">ЯК ЦЕ ПРАЦЮЄ</button>
+								</li>
+								<li class="menu__item">
+									<button data-goto-header data-goto=".page__characteristics" type="button" class="menu__link">ХАРАКТЕРИСТИКИ</button>
+								</li>
+								<li class="menu__item">
+									<button data-goto-header data-goto=".page__testination" type="button" class="menu__link">ВІДГУКИ</button>
+								</li>
+								<li class="menu__item">
+									<button data-goto-header data-goto=".page__galery" type="button" class="menu__link">ГАЛЕРЕЯ</button>
+								</li>
+								<li class="menu__item">
+									<button data-goto-header data-goto=".delivery__guarantee" type="button" class="menu__link">ГАРАНТІЯ</button>
+								</li>
+								<li class="menu__item">
+									<button data-goto-header data-goto=".delivery__payment" type="button" class="menu__link">ДОСТАВКА І ОПЛАТА</button>
+								</li>
+								<li class="menu__item">
+									<button data-goto-header data-goto=".page__faq" type="button" class="menu__link">FAQ</button>
+								</li>
+							</ul>
+							<ul class="menu__social social">
+								<li class="social__item">
+									<a target="_blank" href="#" class="social__link _icon-instagram"></a>
+								</li>
+							</ul>
+						</nav>
+						<div class="menu__actions">
+							<button data-goto-header data-goto=".page__reservation-order" type="button" class="menu__order-button">
+								Замовити
+							</button>
+							<button type="button" class="menu__icon icon-menu">
+								<span></span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__main main">
+				<div class="main__wrapper">
+					<div class="main__container">
+						<div class="main__top-block">
+							<div class="main__image-block">
+								<picture><source srcset="img/main-image.webp" type="image/webp"><img src="img/main-image.jpg" alt="desk"></picture>
+								<div class="main__labels labels-main">
+									<div class="labels-main__total-price">
+										6499 ₴
+									</div>
+									<div class="labels-main__present">
+										<span>3</span>подарунки на суму 760
+										грн
+									</div>
+									<div class="labels-main__free-delivery">
+										безкоштовна доставка при замовленні
+										до 20 вересня!
+									</div>
+								</div>
+								<button data-popup="#video" data-popup-youtube="YzFhHW5hCLM" type="button" class="main__video-button"></button>
+							</div>
+							<div class="main__info">
+								<h1 data-da=".main__image-block,991.98,0">
+									<span>Трансформуйте</span> своє робоче
+									місце з
+									<span>StandDesk 2.0</span>
+								</h1>
+								<p>
+									Наші столи з регулюванням висоти - це
+									ваш крок до <span>здорового</span> та
+									<span>продуктивного</span> життя
+								</p>
+								<h2>
+									Замовляйте свій стіл
+									<span>за неймовірною ціною</span>
+									прямо зараз!
+								</h2>
+								<form data-ajax data-popup-message="#popup" class="main__form form" action="files/sendmail/sendmail.php" enctype="multipart/form-data" method="POST">
+									<div class="form__line-wrapper">
+										<div class="form__line">
+											<label for="firstname">Iм'я</label>
+											<input type="text" name="firstname" autocomplete="off" data-required id="firstname" data-error="" placeholder="Iм'я" class="input">
+										</div>
+										<div class="form__line form__line--number">
+											<label for="tel">Номер телефону</label>
+											<input type="tel" name="tel" data-required data-validate data-mask id="tel" data-error="НЕВІРНИЙ ФОРМАТ ТЕЛЕФОНУ" placeholder="Номер телефону" class="input">
+											<span class="form__line--number-error"><img src="img/input/error-icon.svg" alt="error-icon"></span>
+											<span class="form__line--number-ok"><img src="img/input/ok-icon.svg" alt="ok-icon"></span>
+											<div class="form__line--label-error">
+												НЕВІРНИЙ ФОРМАТ ТЕЛЕФОНУ
+											</div>
+										</div>
+									</div>
+									<div class="form__options options">
+										<div class="options__item">
+											<input id="natural" class="options__input" checked type="radio" value="natural" name="color">
+											<label for="natural" class="options__label"><span class="options__text">Натуральний</span></label>
+										</div>
+										<div class="options__item">
+											<input id="black" class="options__input" type="radio" value="black" name="color">
+											<label for="black" class="options__label options__label--black"><span class="options__text">Темний</span></label>
+										</div>
+										<div class="options__item">
+											<input id="blue" class="options__input" type="radio" value="blue" name="color">
+											<label for="blue" class="options__label options__label--blue"><span class="options__text">Голубий</span></label>
+										</div>
+									</div>
+									<button type="submit" class="form__button button">
+										ЗАМОВИТИ
+									</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="main__advantages advantages">
+					<div class="advantages__container">
+						<h3><span>Переваги</span> продукту</h3>
+						<div class="advantages__wrapper">
+							<div class="advantages__label advantages__label--fife">
+								<span class="_icon-file"></span>
+								<p>Зростає продуктивність</p>
+							</div>
+							<div class="advantages__label advantages__label--heart">
+								<span class="_icon-heart"></span>
+								<p>Знижує біль у спині</p>
+							</div>
+							<div class="advantages__label advantages__label--double-arr">
+								<span class="_icon-double-arr"></span>
+								<p>Покращує поставу</p>
+							</div>
+							<div class="advantages__label advantages__label--face-smile">
+								<span class="_icon-face-smile"></span>
+								<p>Бореться з втомою</p>
+							</div>
+							<div class="advantages__label advantages__label--energy">
+								<span class="_icon-energy"></span>
+								<p>Підвищує енергію</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__present present">
+				<div class="present__container">
+					<h2>
+						<span>З кожним</span> замовленням
+						<span>ви отримуєте</span>
+					</h2>
+					<div class="present__galery">
+						<div class="present__column">
+							<div class="present__big-image">
+								<picture><source srcset="img/present/image_01.webp" type="image/webp"><img src="img/present/image_01.png" alt="Підставка під ноутбук" ></picture>
+								<div class="present__label">ПОДАРУНОК</div>
+								<p class="present__label-about">
+									підставку під ноутбук
+								</p>
+							</div>
+							<div class="present__down-line">
+								<div class="present__small-image">
+									<picture><source srcset="img/present/image_02.webp" type="image/webp"><img src="img/present/image_02.png" alt="Гравіровка вашого напису" ></picture>
+									<div class="present__label">
+										ПОДАРУНОК
+									</div>
+									<p class="present__label-about-right-small">
+										гравіровку вашого напису
+									</p>
+								</div>
+								<div class="present__small-image">
+									<picture><source srcset="img/present/image_03.webp" type="image/webp"><img src="img/present/image_03.jpeg" alt="Підставка під чашку" ></picture>
+									<div class="present__label-left-mobile">
+										ПОДАРУНОК
+									</div>
+									<p class="present__label-about-top-small">
+										підставку під чашку
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="present__column present__column--right">
+							<div class="present__right-image">
+								<picture><source srcset="img/present/image_04.webp" type="image/webp"><img src="img/present/image_04.png" alt="Підставка під телефон"></picture>
+								<div class="present__label-left">
+									ПОДАРУНОК
+								</div>
+								<p class="present__label-about-top">
+									підставку під телефон
+								</p>
+							</div>
+						</div>
+					</div>
+					<h3>
+						<span>абсолютно</span> <span>безкоштовно!</span>
+					</h3>
+				</div>
+			</section>
+			<section class="page__about about">
+				<div class="about__container">
+					<div class="about__top">
+						<div class="about__info">
+							<h2><span>Регулюйте</span> стіл <span>за висотою</span></h2>
+							<div class="about__actions">
+								<!-- Если нужна пагинация -->
+								<div data-da=".about__slider,991.98" class="about__swiper-pagination"></div>
+							</div>
+						</div>
+						<!-- Оболочка слайдера -->
+						<div class="about__slider swiper">
+							<!-- Двигающееся часть слайдера -->
+							<div class="about__wrapper swiper-wrapper">
+								<!-- Слайд -->
+								<div class="about__slide slide-about swiper-slide">
+									<div class="slide-about__image slide-about__image--small">
+										<picture><source srcset="img/about/image_02.webp" type="image/webp"><img src="img/about/image_02.png" alt="image"></picture>
+										<div class="slide-about__labeles">
+											<div class="slide-about__label">
+												80 см
+											</div>
+											<div class="slide-about__line">
+												<span class="slide-about__arrow-top _icon-arrow"></span><span class="slide-about__dashed"></span><span class="slide-about__arrow-bottom _icon-arrow"></span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Слайд -->
+								<div class="about__slide slide-about swiper-slide">
+									<div class="slide-about__image slide-about__image--big">
+										<picture><source srcset="img/about/image_01.webp" type="image/webp"><img src="img/about/image_01.png" alt="image"></picture>
+										<div class="slide-about__labeles">
+											<div class="slide-about__label">
+												110 см
+											</div>
+											<div class="slide-about__line">
+												<span class="slide-about__arrow-top _icon-arrow"></span><span class="slide-about__dashed"></span><span class="slide-about__arrow-bottom _icon-arrow"></span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="about__table table-about">
+						<div class="table-about__galery">
+							<picture><source srcset="img/about/image_05.webp" type="image/webp"><img src="img/about/image_05.png" alt="image"></picture>
+						</div>
+						<div class="table-about__galery-mobile">
+							<picture><source srcset="img/about/image-mobile-tab.webp" type="image/webp"><img src="img/about/image-mobile-tab.png" alt="image"></picture>
+						</div>
+						<div class="table-about__info">
+							<h3>та <span>за кутом нахилу</span></h3>
+							<div class="table-about__type">
+								<picture><source srcset="img/about/image-tabs-title.webp" type="image/webp"><img src="img/about/image-tabs-title.png" alt="type"></picture>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__regulation regulation">
+				<div class="regulation__container">
+					<h2>
+						Переваги <span>регулювання</span>
+						<span>стільниці</span>
+					</h2>
+					<div class="regulation__wrapper">
+						<article class="regulation__card">
+							<div class="regulation__head">
+								<div class="regulation__number">I</div>
+								<h4>Ергономіка</h4>
+							</div>
+							<div class="regulation__body">
+								<p>
+									Регулювання кута стільниці дозволяє
+									<span class="it">змінювати положення так, щоб вона
+										відповідала найкраще вашій
+										фізіології та способу роботи</span>
+								</p>
+								<p>
+									Це може
+									<span class="orange">запобігти напруженню та
+										дискомфорту</span>
+									під час тривалої роботи
+								</p>
+							</div>
+						</article>
+						<article class="regulation__card">
+							<div class="regulation__head">
+								<div class="regulation__number">
+									II
+								</div>
+								<h4>Зменшення напруги на спині і шиї</h4>
+							</div>
+							<div class="regulation__body">
+								<p>
+									Відповідний кут налаштування стільниці
+									дозволяє уникнути надмірного наклону
+									голови і шиї, що
+									<span class="it">може призвести до неприємностей та
+										болей</span>
+								</p>
+							</div>
+						</article>
+						<article class="regulation__card">
+							<div class="regulation__head">
+								<div class="regulation__number">
+									III
+								</div>
+								<h4>
+									Забезпечення комфортного положення для
+									письма і навчання
+								</h4>
+							</div>
+							<div class="regulation__body">
+								<p>
+									Особливо важливо
+									<span class="orange">для учнів та студентів</span>, які витрачають багато часу за
+									навчальним столом
+								</p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section class="page__characteristics characteristics">
+				<div class="characteristics__container">
+					<div class="characteristics__content">
+						<h2>Характеристики <span>продукту</span></h2>
+						<div class="characteristics__wrapper">
+							<div class="characteristics__line">
+								<article class="characteristics__item">
+									<h3>Розміри стільниці</h3>
+									<p>80*60 см</p>
+								</article>
+								<article class="characteristics__item">
+									<h3>Полиця</h3>
+									<p>16*60см</p>
+								</article>
+								<article class="characteristics__item">
+									<h3>Органайзер</h3>
+									<p>20*10 см</p>
+								</article>
+							</div>
+							<div class="characteristics__line">
+								<article class="characteristics__item">
+									<h3>Підставка під чашку</h3>
+									<p>В подарунок</p>
+								</article>
+								<article class="characteristics__item">
+									<h3>Підставка під ноутбук</h3>
+									<p>В подарунок</p>
+								</article>
+								<article class="characteristics__item">
+									<h3>Матеріал</h3>
+									<p>Фанера ФК ½</p>
+								</article>
+							</div>
+							<div class="characteristics__line">
+								<article class="characteristics__item">
+									<h3>Рекомендована вага</h3>
+									<p>70 кг</p>
+								</article>
+								<article class="characteristics__item">
+									<h3>Розміри в розібраному вигляді</h3>
+									<p>85x70x10см</p>
+								</article>
+								<article class="characteristics__item">
+									<h3>
+										Габарити (в найнижчому положенні)
+									</h3>
+									<p>80x60x80 см</p>
+								</article>
+							</div>
+							<div class="characteristics__line characteristics__line--last">
+								<article class="characteristics__item">
+									<h3>Висота стільниці від підлоги</h3>
+									<p>Від 80 см до 110 см</p>
+								</article>
+								<article class="characteristics__item">
+									<h3>Покриття</h3>
+									<p>
+										Акрилова фарба (Польща), безпечна
+										для дітей та дорослих
+									</p>
+								</article>
+							</div>
+
+							<div class="characteristics__line-mobile">
+								<article class="characteristics__item">
+									<h3>Розміри стільниці</h3>
+									<p>80*60 см</p>
+								</article>
+								<article class="characteristics__item">
+									<h3>Полиця</h3>
+									<p>16*60см</p>
+								</article>
+							</div>
+							<div class="characteristics__line-mobile">
+								<article class="characteristics__item">
+									<h3>Органайзер</h3>
+									<p>20*10 см</p>
+								</article>
+								<article class="characteristics__item">
+									<h3>Підставка під чашку</h3>
+									<p>В подарунок</p>
+								</article>
+							</div>
+							<div class="characteristics__line-mobile">
+								<article class="characteristics__item">
+									<h3>Підставка під ноутбук</h3>
+									<p>В подарунок</p>
+								</article>
+								<article class="characteristics__item">
+									<h3>Матеріал</h3>
+									<p>Фанера ФК ½</p>
+								</article>
+							</div>
+							<div class="characteristics__line-mobile">
+								<article class="characteristics__item">
+									<h3>Рекомендована вага</h3>
+									<p>70 кг</p>
+								</article>
+								<article class="characteristics__item">
+									<h3>Розміри в розібраному вигляді</h3>
+									<p>85x70x10см</p>
+								</article>
+							</div>
+
+							<div class="characteristics__line-mobile-big">
+								<article class="characteristics__item">
+									<h3>
+										Габарити (в найнижчому положенні)
+									</h3>
+									<p>80x60x80 см</p>
+								</article>
+							</div>
+							<div class="characteristics__line-mobile-big">
+								<article class="characteristics__item">
+									<h3>Висота стільниці від підлоги</h3>
+									<p>Від 80 см до 110 см</p>
+								</article>
+							</div>
+							<div class="characteristics__line-mobile-big">
+								<article class="characteristics__item">
+									<h3>Покриття</h3>
+									<p>
+										Акрилова фарба (Польща), безпечна
+										для дітей та дорослих
+									</p>
+								</article>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__desk desk">
+				<div class="desk__container">
+					<div class="desk__info">
+						<h2>
+							Cтоли <br >
+							<span>StandDesk 2.0</span>
+						</h2>
+						<div class="desk__content">
+							<span>це поєднання якості, дизайну та
+								інновацій</span>
+							<p>
+								Вони призначені для комфортної роботи,
+								незалежно від ваших потреб
+							</p>
+						</div>
+						<div class="desk__bg">
+							<picture><source srcset="img/desk/image_01.webp" type="image/webp"><img src="img/desk/image_01.png" alt="bg-image"></picture>
+						</div>
+						<div class="desk__bg-mobile">
+							<picture><source srcset="img/desk/image_001.webp" type="image/webp"><img src="img/desk/image_001.png" alt="bg-image"></picture>
+						</div>
+						<button data-popup="#video" type="button" data-popup-youtube="YzFhHW5hCLM" class="desk__video-button"></button>
+					</div>
+					<div class="desk__logo">
+						<img src="img/desk/desk-logo.svg" alt="logo">
+					</div>
+				</div>
+			</section>
+			<section class="page__testination testination">
+				<div class="testination__container">
+					<div class="testination__header">
+						<h2><span>Відгуки</span> клієнтів</h2>
+						<div class="testination__actions">
+							<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+							<button type="button" class="testination__arr-left swiper-button-prev _icon-arrow"></button>
+							<button type="button" class="testination__arr-right swiper-button-next _icon-arrow"></button>
+						</div>
+					</div>
+					<div class="testination__block-swiper">
+						<!-- Оболонка слайдера -->
+						<div class="testination__slider swiper">
+							<!-- Частина слайдера, що рухається -->
+							<div class="testination__wrapper swiper-wrapper">
+								<!-- Слайд -->
+								<div class="testination__slide slide-testination swiper-slide">
+									<div class="slide-testination__card">
+										<div class="slide-testination__text">
+											<div class="slide-testination__decore slide-testination__decore--top-right _icon-slash"></div>
+											<p>
+												Вітаю! Дякую за стіл! Зняв
+												відео, вас відмітив, дружина
+												в захваті від стола, а для
+												мене це головне.
+											</p>
+										</div>
+										<div class="slide-testination__text">
+											<div class="slide-testination__decore slide-testination__decore--top-left _icon-slash"></div>
+											<p>
+												Мое робоче містце на
+												найближчі 2 місяці. Столом
+												дуже задоволена. Вчора
+												пройшов тест-драйв на
+												"ура"👌. Дякую 😊
+											</p>
+										</div>
+									</div>
+								</div>
+								<!-- Слайд -->
+								<div class="testination__slide slide-testination swiper-slide">
+									<div class="slide-testination__card">
+										<div class="slide-testination__text">
+											<div class="slide-testination__decore slide-testination__decore--bottom-left _icon-slash"></div>
+											<p>
+												Добрий день) Все чудово,
+												дякую, встигла зібрати і
+												попрацювати стоячи вчора🔥
+												ваш стіл - це не річ, а
+												телепорт у краще більш
+												здорове життя.
+											</p>
+										</div>
+										<div class="slide-testination__text">
+											<div class="slide-testination__decore slide-testination__decore--bottom-right _icon-slash"></div>
+											<p>
+												Якщо ви коли-небудь хотіли
+												працювати за столом стоячи і
+												шукали варіант не за всі
+												грощі світу, це знак.
+											</p>
+										</div>
+									</div>
+								</div>
+								<!-- Слайд -->
+								<div class="testination__slide slide-testination swiper-slide">
+									<div class="slide-testination__card">
+										<div class="slide-testination__text">
+											<div class="slide-testination__decore slide-testination__decore--top-left _icon-slash"></div>
+											<p>
+												Якщо вам колись здавалось,
+												що працювати стоячи може
+												бути круто - вам не
+												здавалось. Заглядайте сюди.
+											</p>
+										</div>
+										<div class="slide-testination__text">
+											<div class="slide-testination__decore slide-testination__decore--bottom-right _icon-slash"></div>
+											<p>
+												Доброго дня. Полицю отримав.
+												Дуже дякую! Тепер ідеально.
+												Маю декілька режимів роботи
+												стоячи й сидячи, та ще
+												додатково режим перегляду
+												фільмів ❤️
+											</p>
+										</div>
+									</div>
+								</div>
+								<!-- Слайд -->
+								<div class="testination__slide slide-testination swiper-slide">
+									<div class="slide-testination__card">
+										<div class="slide-testination__text">
+											<div class="slide-testination__decore slide-testination__decore--bottom-right _icon-slash"></div>
+											<p>
+												Дякую! Він суперський! Все
+												дуже зручно. Я давно шукала
+												підходящий варіант
+												стола-трансформера, но всі
+												мене не влаштовували. А у
+												Вас конструкція ідеальна.
+											</p>
+										</div>
+										<div class="slide-testination__text">
+											<div class="slide-testination__decore slide-testination__decore--bottom-left _icon-slash"></div>
+											<p>
+												Ціна - якість, супер. Цілий
+												день працював, змінюючи
+												положення 😎 моя спина каже
+												Вам дякую 😁
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div data-showmore="items" class="testination__show-more show-more">
+						<div class="show-more__decore show-more__decore--top-right _icon-slash"></div>
+						<div class="show-more__decore show-more__decore--bottom-left _icon-slash"></div>
+						<ul data-showmore-content="4" class="show-more__content">
+							<li class="show-more__item">
+								<div class="show-more__text">
+									<p>
+										Вітаю! Дякую за стіл! Зняв відео,
+										вас відмітив, дружина в захваті від
+										стола, а для мене це головне.
+									</p>
+								</div>
+							</li>
+							<li class="show-more__item">
+								<div class="show-more__text">
+									<p>
+										Мое робоче містце на найближчі 2
+										місяці. Столом дуже задоволена.
+										Вчора пройшов тест-драйв на "ура"👌.
+										Дякую 😊
+									</p>
+								</div>
+							</li>
+							<li class="show-more__item">
+								<div class="show-more__text">
+									<p>
+										Добрий день) Все чудово, дякую,
+										встигла зібрати і попрацювати стоячи
+										вчора🔥 ваш стіл - це не річ, а
+										телепорт у краще більш здорове
+										життя.
+									</p>
+								</div>
+							</li>
+							<li class="show-more__item">
+								<div class="show-more__text">
+									<p>
+										Якщо ви коли-небудь хотіли працювати
+										за столом стоячи і шукали варіант не
+										за всі грощі світу, це знак.
+									</p>
+								</div>
+							</li>
+							<li class="show-more__item">
+								<div class="show-more__text">
+									<p>
+										Якщо вам колись здавалось, що
+										працювати стоячи може бути круто -
+										вам не здавалось. Заглядайте сюди.
+									</p>
+								</div>
+							</li>
+							<li class="show-more__item">
+								<div class="show-more__text">
+									<p>
+										Доброго дня. Полицю отримав. Дуже
+										дякую! Тепер ідеально. Маю декілька
+										режимів роботи стоячи й сидячи, та
+										ще додатково режим перегляду фільмів
+										❤️
+									</p>
+								</div>
+							</li>
+							<li class="show-more__item">
+								<div class="show-more__text">
+									<p>
+										Дякую! Він суперський! Все дуже
+										зручно. Я давно шукала підходящий
+										варіант стола-трансформера, но всі
+										мене не влаштовували. А у Вас
+										конструкція ідеальна.
+									</p>
+								</div>
+							</li>
+							<li class="show-more__item">
+								<div class="show-more__text">
+									<p>
+										Ціна - якість, супер. Цілий день
+										працював, змінюючи положення 😎 моя
+										спина каже Вам дякую 😁
+									</p>
+								</div>
+							</li>
+						</ul>
+						<div class="show-more__actions">
+							<button hidden data-showmore-button="1000" type="button" class="show-more__button">
+								<span>ПОКАЗАТИ БІЛЬШЕ ВІДГУКІВ</span>
+								<span>Приховати відгуки</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__galery galery">
+				<div class="galery__head">
+					<h2><span>Галерея</span> продукту</h2>
+					<p>
+						Перегляньте наші столи в дії. Вони вписуються в
+						будь-який дизайн інтер'єру та створюють ідеальне
+						робоче місце
+					</p>
+				</div>
+				<div class="galery__block-swiper">
+					<!-- Оболонка слайдера -->
+					<div class="galery__slider swiper">
+						<!-- Частина слайдера, що рухається -->
+						<div class="galery__wrapper swiper-wrapper">
+							<!-- Слайд -->
+							<div class="galery__slide slide-galery swiper-slide">
+								<div class="slide-galery__image">
+									<picture><source srcset="img/galery/image_01.webp" type="image/webp"><img src="img/galery/image_01.jpeg" alt="desk" ></picture>
+								</div>
+							</div>
+							<!-- Слайд -->
+							<div class="galery__slide slide-galery swiper-slide">
+								<div class="slide-galery__image">
+									<picture><source srcset="img/galery/image_02.webp" type="image/webp"><img src="img/galery/image_02.jpeg" alt="desk" ></picture>
+								</div>
+							</div>
+							<!-- Слайд -->
+							<div class="galery__slide slide-galery swiper-slide">
+								<div class="slide-galery__image">
+									<picture><source srcset="img/galery/image_03.webp" type="image/webp"><img src="img/galery/image_03.jpeg" alt="desk" ></picture>
+								</div>
+							</div>
+							<!-- Слайд -->
+							<div class="galery__slide slide-galery swiper-slide">
+								<div class="slide-galery__image">
+									<picture><source srcset="img/galery/image_04.webp" type="image/webp"><img src="img/galery/image_04.jpeg" alt="desk" ></picture>
+								</div>
+							</div>
+							<!-- Слайд -->
+							<div class="galery__slide slide-galery swiper-slide">
+								<div class="slide-galery__image">
+									<picture><source srcset="img/galery/image_05.webp" type="image/webp"><img src="img/galery/image_05.jpeg" alt="desk" ></picture>
+								</div>
+							</div>
+							<!-- Слайд -->
+							<div class="galery__slide slide-galery swiper-slide">
+								<div class="slide-galery__image">
+									<picture><source srcset="img/galery/image_06.webp" type="image/webp"><img src="img/galery/image_06.jpeg" alt="desk" ></picture>
+								</div>
+							</div>
+							<!-- Слайд -->
+							<div class="galery__slide slide-galery swiper-slide">
+								<div class="slide-galery__image">
+									<picture><source srcset="img/galery/image_07.webp" type="image/webp"><img src="img/galery/image_07.jpeg" alt="desk" ></picture>
+								</div>
+							</div>
+							<!-- Слайд -->
+							<div class="galery__slide slide-galery swiper-slide">
+								<div class="slide-galery__image">
+									<picture><source srcset="img/galery/image_08.webp" type="image/webp"><img src="img/galery/image_08.jpeg" alt="desk" ></picture>
+								</div>
+							</div>
+							<!-- Слайд -->
+							<div class="galery__slide slide-galery swiper-slide">
+								<div class="slide-galery__image">
+									<picture><source srcset="img/galery/image_09.webp" type="image/webp"><img src="img/galery/image_09.jpeg" alt="desk" ></picture>
+								</div>
+							</div>
+							<!-- Слайд -->
+							<div class="galery__slide slide-galery swiper-slide">
+								<div class="slide-galery__image">
+									<picture><source srcset="img/galery/image_10.webp" type="image/webp"><img src="img/galery/image_10.jpeg" alt="desk" ></picture>
+								</div>
+							</div>
+							<!-- Слайд -->
+							<div class="galery__slide slide-galery swiper-slide">
+								<div class="slide-galery__image">
+									<picture><source srcset="img/galery/image_11.webp" type="image/webp"><img src="img/galery/image_11.jpeg" alt="desk" ></picture>
+								</div>
+							</div>
+							<!-- Слайд -->
+							<div class="galery__slide slide-galery swiper-slide">
+								<div class="slide-galery__image">
+									<picture><source srcset="img/galery/image_12.webp" type="image/webp"><img src="img/galery/image_12.jpeg" alt="desk" ></picture>
+								</div>
+							</div>
+							<!-- Слайд -->
+							<div class="galery__slide slide-galery swiper-slide">
+								<div class="slide-galery__image">
+									<picture><source srcset="img/galery/image_13.webp" type="image/webp"><img src="img/galery/image_13.jpeg" alt="desk" ></picture>
+								</div>
+							</div>
+							<!-- Слайд -->
+							<div class="galery__slide slide-galery swiper-slide">
+								<div class="slide-galery__image">
+									<picture><source srcset="img/galery/image_14.webp" type="image/webp"><img src="img/galery/image_14.jpeg" alt="desk" ></picture>
+								</div>
+							</div>
+							<!-- Слайд -->
+							<div class="galery__slide slide-galery swiper-slide">
+								<div class="slide-galery__image">
+									<picture><source srcset="img/galery/image_15.webp" type="image/webp"><img src="img/galery/image_15.jpeg" alt="desk" ></picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="galery__foot">
+					<!-- Якщо потрібна пагінація -->
+					<div class="galery__swiper-pagination"></div>
+					<div class="galery__actions">
+						<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+						<button type="button" class="galery__arr-left swiper-button-prev _icon-arrow"></button>
+						<button type="button" class="galery__arr-right swiper-button-next _icon-arrow"></button>
+					</div>
+				</div>
+			</section>
+			<div class="page__delivery delivery">
+				<div class="delivery__container">
+					<article class="delivery__guarantee guarantee">
+						<div class="guarantee__head">
+							<div class="guarantee__label">
+								<img src="img/delivery/icon_01.svg" alt="label" >
+							</div>
+							<h3>Гарантія</h3>
+						</div>
+						<div class="guarantee__text">
+							<h4>
+								Наша гарантія — якщо вам стіл не
+								сподобається,
+							</h4>
+							<p>
+								ми повернемо 100% вартості і оплатимо
+								доставку за свій рахунок
+							</p>
+							<h5>Ми прагнемо, щоб ви були задоволені!</h5>
+						</div>
+						<div class="guarantee__bg-image">
+							<picture><source srcset="img/delivery/bg-image.webp" type="image/webp"><img src="img/delivery/bg-image.png" alt="bg-image" ></picture>
+						</div>
+					</article>
+					<article class="delivery__payment payment">
+						<div class="payment__head">
+							<div class="payment__label">
+								<img src="img/delivery/icon_02.svg" alt="label" >
+							</div>
+							<h3>Доставка і оплата</h3>
+						</div>
+
+						<div class="payment__text">
+							<h4>Ми працюємо без передоплати</h4>
+							<p>і забезпечуємо безкоштовну доставку</p>
+							<h5>
+								<span>Новою Поштою</span> по всій Україні.
+								Зручність і надійність нашого сервісу — наш
+								пріоритет
+							</h5>
+						</div>
+					</article>
+				</div>
+			</div>
+			<section class="page__faq faq">
+				<div class="faq__container">
+					<div class="faq__head">
+						<h2>FAQ</h2>
+						<p>У вас є питання? Ми маємо відповіді</p>
+					</div>
+					<div data-spollers class="faq__spollers spollers">
+						<details class="spollers__item">
+							<summary class="spollers__title">
+								Які розміри та комлектація стола?
+								<span class="_icon-arrow"></span>
+							</summary>
+							<div class="spollers__body">
+								<ul>
+									<li>Велика стільниця 80*60 см;</li>
+									<li>Полиця 16*60 см;</li>
+									<li>Органайзер 20*10 см;</li>
+									<li>Підставка під чашку;</li>
+									<li>Підставка під ноутбук;</li>
+									<li>Підставка під телефоню</li>
+								</ul>
+							</div>
+						</details>
+						<details class="spollers__item">
+							<summary class="spollers__title">
+								Які є кольори?
+								<span class="_icon-arrow"></span>
+							</summary>
+							<div class="spollers__body">
+								<ul>
+									<li>Натуральний;</li>
+									<li>Синій;</li>
+									<li>Білий:</li>
+								</ul>
+							</div>
+						</details>
+						<details class="spollers__item">
+							<summary class="spollers__title">
+								Яку вагу витримує стіл?
+								<span class="_icon-arrow"></span>
+							</summary>
+							<div class="spollers__body">
+								<p>Рекомендована вага 70 кг.</p>
+							</div>
+						</details>
+						<details class="spollers__item">
+							<summary class="spollers__title">
+								Із яких матеріалів виготовлено стіл?
+								<span class="_icon-arrow"></span>
+							</summary>
+							<div class="spollers__body">
+								<p>
+									Стіл виготовлений із Березової ФК
+									фанери, товщиною 15 мм, сорту 1/2. Стіл
+									покритий акриловою фарбою (безпечна для
+									дітей і дорослих), а краї столу
+									оброблені масловоском.
+								</p>
+							</div>
+						</details>
+						<details class="spollers__item">
+							<summary class="spollers__title">
+								Які мінімальна і максимальна висота стола?
+								<span class="_icon-arrow"></span>
+							</summary>
+							<div class="spollers__body">
+								<p>Стіл в найнижчому положенні: 80 см.</p>
+								<p>Стіл в наййвищому положенні: 110 см.</p>
+							</div>
+						</details>
+						<details class="spollers__item">
+							<summary class="spollers__title">
+								Доставка, оплата, гарантія.
+								<span class="_icon-arrow"></span>
+							</summary>
+							<div class="spollers__body">
+								<p>
+									Доставка в межах України безкоштовна.
+									Відправка «Новою Поштою». Оплата при
+									отриманні товару — без передоплати.
+									Гарантія на повернення 14 днів. Навіть
+									якщо вам не сподобається товар, ми
+									приймемо його назад без зайвих питань.
+									При чому, зворотню доставку також
+									сплачуємо ми!
+								</p>
+							</div>
+						</details>
+					</div>
+				</div>
+			</section>
+			<section class="page__reservation-order reservation-order">
+				<div class="reservation-order__container">
+					<div class="reservation-order__wrapper">
+						<div class="reservation-order__image-block">
+							<picture><source srcset="img/order/image_01.webp" type="image/webp"><img src="img/order/image_01.jpg" alt="desk" ></picture>
+						</div>
+						<div class="reservation-order__info">
+							<p>
+								Почніть свій шлях до
+								<span class="it">більш</span> здорового та
+								<span class="it">продуктивного</span>
+								робочого дня вже зараз з
+								<span class="bold">StandDesk</span>
+							</p>
+							<h2 class="reservation-order__title">
+								Замовляйте свій стіл
+								<span class="reservation-order__underline">за неймовірною ціною</span>
+								<span class="reservation-order__label">6499 ₴</span>
+								прямо зараз!
+							</h2>
+							<form data-ajax data-popup-message="#popup" class="reservation-order__form form" action="files/sendmail/sendmail.php" enctype="multipart/form-data" method="POST">
+								<div class="form__line-wrapper">
+									<div class="form__line">
+										<label for="firstnamesec">Iм'я</label>
+										<input type="text" name="firstnamesec" autocomplete="off" data-required id="firstnamesec" data-error="" placeholder="Iм'я" class="input" >
+									</div>
+									<div class="form__line form__line--number">
+										<label for="telsec">Номер телефону</label>
+										<input type="tel" name="telsec" data-required data-validate data-mask id="telsec" data-error="Невірний формат телефону" placeholder="Номер телефону" class="input" >
+										<span class="form__line--number-error"><img src="img/input/error-icon.svg" alt="error-icon" ></span>
+										<span class="form__line--number-ok"><img src="img/input/ok-icon.svg" alt="ok-icon" ></span>
+										<div class="form__line--label-error">
+											НЕВІРНИЙ ФОРМАТ ТЕЛЕФОНУ
+										</div>
+									</div>
+								</div>
+								<div class="form__options options">
+									<div class="options__item">
+										<input id="naturalsec" class="options__input" checked type="radio" value="natural-second" name="color" >
+										<label for="naturalsec" class="options__label"><span class="options__text">Натуральний</span></label>
+									</div>
+									<div class="options__item">
+										<input id="blacksec" class="options__input" type="radio" value="black-second" name="color" >
+										<label for="blacksec" class="options__label options__label--black"><span class="options__text">Темний</span></label>
+									</div>
+									<div class="options__item">
+										<input id="bluesec" class="options__input" type="radio" value="blue-second" name="color" >
+										<label for="bluesec" class="options__label options__label--blue"><span class="options__text">Голубий</span></label>
+									</div>
+								</div>
+								<button type="submit" class="form__button button">
+									ЗАМОВИТИ
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<script src="https://unpkg.com/imask?_v=20230930213627"></script>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__column">
+					<a href="index.html" class="footer__logo"><img src="img/footer-logo.svg" alt="logo" ></a>
+					<p class="footer__official">Офіційний сайт виробника</p>
+				</div>
+				<div class="footer__label">
+					<p>Маркетинг і розробка сайту</p>
+					<a target="_blank" href="https://instagram.com/denysche">@denysche</a>
+				</div>
+				<nav class="footer__menu menu-footer">
+					<ul class="menu-footer__list">
+						<li class="menu-footer__item">
+							<button data-goto-header data-goto=".main__advantages" type="button" class="menu-footer__link">
+								ПЕРЕВАГИ
+							</button>
+						</li>
+						<li class="menu-footer__item">
+							<button data-goto-header data-goto=".page__about" type="button" class="menu-footer__link">
+								ЯК ЦЕ ПРАЦЮЄ
+							</button>
+						</li>
+						<li class="menu-footer__item">
+							<button data-goto-header data-goto=".page__characteristics" type="button" class="menu-footer__link">
+								ХАРАКТЕРИСТИКИ
+							</button>
+						</li>
+						<li class="menu-footer__item">
+							<button data-goto-header data-goto=".page__testination" type="button" class="menu-footer__link">
+								ВІДГУКИ
+							</button>
+						</li>
+						<li class="menu-footer__item">
+							<button data-goto-header data-goto=".page__galery" type="button" class="menu-footer__link">
+								ГАЛЕРЕЯ
+							</button>
+						</li>
+						<li class="menu-footer__item">
+							<button data-goto-header data-goto=".delivery__guarantee" type="button" class="menu-footer__link">
+								ГАРАНТІЯ
+							</button>
+						</li>
+						<li class="menu-footer__item">
+							<button data-goto-header data-goto=".delivery__payment" type="button" class="menu-footer__link">
+								ДОСТАВКА І ОПЛАТА
+							</button>
+						</li>
+						<li class="menu-footer__item">
+							<button data-goto-header data-goto=".page__faq" type="button" class="menu-footer__link">
+								FAQ
+							</button>
+						</li>
+					</ul>
+					<ul class="menu-footer__social social-footer">
+						<li class="social-footer__item">
+							<a target="_blank" href="https://Instagram.com/stand.desk" class="social-footer__link _icon-instagram"></a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</footer>
+
+	</div>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__text">
+					<h3>
+						<span><img src="img/check-icon.svg" alt="check-icon" ></span>Дякуємо
+					</h3>
+					<p>
+						ваша заявка <span>успішно</span> відправлена, <br >
+						ми зв'яжемося з вами найближчим часом
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="video" aria-hidden="true" class="popup popup--video">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div data-popup-youtube-place class="popup__youtube">
+					<iframe width="1280" height="700" src="https://www.youtube.com/embed/YzFhHW5hCLM" title="Stand Desk 2.0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230930213627"></script>
+</body>
+
+</html>
